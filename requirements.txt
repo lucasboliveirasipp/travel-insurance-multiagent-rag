@@ -1,0 +1,59 @@
+# Core LangChain e LangGraph
+langchain>=0.1.0
+langchain-openai>=0.2,<1.0
+langgraph>=0.6,<1.0
+langchain-core>=0.3,<1.0
+
+# Azure Services
+azure-ai-formrecognizer>=3.3.0
+azure-cognitiveservices-vision-computervision>=0.9.0
+azure-search-documents>=11.4.0
+azure-identity>=1.15.0
+
+# Processamento de PDFs (fallback)
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+pypdf>=3.17.0
+
+# Validação e Schemas
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Interface
+streamlit>=1.29
+
+# Utilitários
+python-dotenv>=1.0.0
+requests>=2.31.0
+python-multipart>=0.0.6
+
+# Cache
+diskcache>=5.6.0
+
+# Logging e Debugging
+rich>=13.7.0
+
+# Processamento de texto
+tiktoken>=0.5.0
+
+# Progress bars (opcional - para indexing_service)
+tqdm>=4.66.0
+
+# Dependências opcionais
+msrest>=0.7.0
+
+# Testes
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+
+# Adicionado na revisão do portfólio (importado pelo código)
+azure-ai-documentintelligence
+azure-core
+langchain-community>=0.3,<1.0
+langchain-text-splitters>=0.3,<1.0
+openai
+openpyxl
+pandas
+pymongo
+python-docx

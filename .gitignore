@@ -1,0 +1,94 @@
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Dados gerados pelos apps (podem conter documentos reais)
+.cache/
+logs/
+output/
+uploads/
+**/agente_analise_contratos_assets/uploads/
+**/agente_analise_contratos_ingestao_documentos/
+*.db
+*.sqlite
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Project-specific
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# Logs
+*.log
+logs/
+
+# Output
+output/
+
+# Files (PDFs não devem ser commitados)
+files/*.pdf
+files/*.png
+files/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
